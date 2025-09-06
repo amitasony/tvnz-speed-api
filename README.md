@@ -5,9 +5,7 @@ A Node.js + TypeScript REST API that calculates **final speed** from an initial 
 - Uphill (+) reduces speed  
 - Downhill (−) increases speed  
 - Formula: `finalSpeed = initialSpeed - sum(inclines)`
-
 ---
-
 ## 🚀 How to Run (Development)
 
 ```bash
@@ -17,8 +15,8 @@ npm install
 # start in dev mode (auto restart with nodemon)
 npm run dev
 
+(Server will start on http://localhost:3000)
 
-Server will start on http://localhost:3000
 🧪 How to Test
 
 Run automated tests (Jest + Supertest):
